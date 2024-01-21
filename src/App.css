@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: left;
+}
+
+
+.product {
+    border-right: 3px solid #0FA5AF;
+    border-bottom: 3px solid #0FA5AF;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+h1 {
+    font-weight: 400;
+    color: #6DC8CE;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background: #0FA5AF;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: white;
+    color: #0FA5AF;
+}
+.reviews{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: left;
+    margin: auto;
+}
+
+.review{
+    border-right: 3px solid #0FA5AF;
+    border-bottom: 3px solid #0FA5AF;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.review p{
+    padding-bottom: 10px;
+}
+.title{
+    font-weight: 700;
+}
+.star{
+    padding-bottom: 10px;
+}
+
+.product-title{
+    display: flex;
+    padding-top: 10px;
+    width: 88%;
+    margin: auto;
+    color: #0FA5AF;
+}
+.go-back {
+    position: relative;
+    width: 87%;
+    margin: auto;
+}
+
+.filter{
+    display: flex;
+    gap: 10px;
+    width: 86%;
+    margin: auto;
+}
+.pro{
+    padding-bottom: 30px;
+}
+label{
+    font-weight: bold;
+}

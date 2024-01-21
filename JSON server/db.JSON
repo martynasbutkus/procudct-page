@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Product 1",
+            "category": "electronics",
+            "price": 4000,
+            "description": "This is description about product 1"
+        },
+        {
+            "id": 2,
+            "title": "Product 2",
+            "category": "books",
+            "price": 2000,
+            "description": "This is description about product 2"
+        },
+        {
+            "id": 3,
+            "title": "Product 3",
+            "category": "fitness",
+            "price": 1200,
+            "description": "This is description about product 3"
+        }
+    ],
+ 
+    "reviews": [
+        {
+            "id": 1,
+            "rating": 3,
+            "title": "Good, but not good",
+            "comment": "Review 1 for product id 1",
+            "name": "Alice Johnson",
+            "productId": 1
+        },
+        {
+            "id": 2,
+            "rating": 4,
+            "title": "Good, but not good",
+            "comment": "Review 2 for product id 1",
+            "name": "Alice Johnson",
+            "productId": 1
+        },
+        {
+            "id": 3,
+            "rating": 4,
+            "title": "Good, but not good",
+            "comment": "Review 3 for product id 1",
+            "name": "Alice Johnson",
+            "productId": 1
+        }
+    ]
+}
